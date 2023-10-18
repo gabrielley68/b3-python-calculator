@@ -35,6 +35,7 @@ def valeur_absolue(a):
 
 # 8. Retourne la valeur au carré
 def carre(a):
+    return a * a
     pass
 
 
