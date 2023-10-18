@@ -30,6 +30,8 @@ def reste(a, b):
 
 # 7. Retourne le nombre sans tenir compte de son signe
 def valeur_absolue(a):
+    nombre_absolu = abs(a)
+    return nombre_absolu
     pass
 
 
