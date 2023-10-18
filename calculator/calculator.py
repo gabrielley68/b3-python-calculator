@@ -5,7 +5,7 @@ def addition(a, b):
 
 # 2. Soustraction basique
 def soustraction(a, b):
-    pass
+    return a - b
 
 
 # 3. Multiplication basique
