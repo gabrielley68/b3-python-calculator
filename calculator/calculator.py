@@ -8,9 +8,10 @@ def soustraction(a, b):
     return a - b
 
 
-# 3. Multiplication basique
+# 3. Multiplication basique - Killian
 def multiplication(a, b):
-    pass
+    answer = a * b
+    return answer
 
 
 # 4. Division basique
