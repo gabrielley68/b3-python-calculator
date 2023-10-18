@@ -15,7 +15,7 @@ def multiplication(a, b):
 
 # 4. Division basique
 def division(a, b):
-    pass
+    return a / b
 
 
 # 5. Quotient de la division euclidienne (ou division entière)
