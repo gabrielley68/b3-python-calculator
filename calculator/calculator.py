@@ -74,8 +74,9 @@ def inverse(a):
 
 
 # 13. Tri la liste
-def tri(l):
-    pass
+def tri(a):
+    list = sorted(a)
+    return list
 
 
 # 14. Retourne la factorielle de la valeur
