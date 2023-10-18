@@ -50,7 +50,11 @@ def racine_carre(a):
 
 # 10. Retourne la somme des éléments de la liste
 def somme_liste(l):
-    pass
+    list_add = [1, 2, 3, 4, 5]
+    somme_all_list=0
+    for element in list_add:
+        somme_all_list += element
+    return somme_all_list
 
 
 # 11. Retourne a puissance b
