@@ -32,7 +32,8 @@ def reste(a, b):
 
 # 7. Retourne le nombre sans tenir compte de son signe
 def valeur_absolue(a):
-    pass
+    nombre_absolu = abs(a)
+    return nombre_absolu
 
 
 # 8. Retourne la valeur au carré
