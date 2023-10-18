@@ -50,7 +50,7 @@ def somme_liste(l):
 
 # 11. Retourne a puissance b
 def puissance(a, b):
-    pass
+    return a**b
 
 
 # 12. Retourne l'inverse du nombre
