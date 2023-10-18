@@ -40,7 +40,10 @@ def carre(a):
 
 # 9. Retourne la racine carré de la valeur
 def racine_carre(a):
-    pass
+    if a >= 0:
+        return math.sqrt(a)
+    else:
+        return "Impossible de calculer la racine carrée d'un nombre négatif."
 
 
 # 10. Retourne la somme des éléments de la liste
