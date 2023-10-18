@@ -1,3 +1,5 @@
+import math
+
 # 1. Addition basique
 def addition(a, b):
     return a + b
@@ -50,10 +52,10 @@ def racine_carre(a):
 
 
 # 10. Retourne la somme des éléments de la liste
-def somme_liste(l):
-    list_add = [1, 2, 3, 4, 5]
-    somme_all_list=0
-    for element in list_add:
+def somme_liste(liste):
+    # list_add = [1, 2, 3, 4, 5]  non
+    somme_all_list = 0
+    for element in liste:
         somme_all_list += element
     return somme_all_list
 
@@ -79,6 +81,6 @@ def tri(l):
 # 14. Retourne la factorielle de la valeur
 def factoriel(a):
     if a == 0:
-            return 1
-        else:
-            return a * factorial(a - 1)
+        return 1
+    else:
+        return a * factoriel(a - 1)
