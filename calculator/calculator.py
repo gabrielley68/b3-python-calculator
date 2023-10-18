@@ -1,11 +1,11 @@
 # 1. Addition basique
 def addition(a, b):
-    pass
+    return a + b
 
 
 # 2. Soustraction basique
 def soustraction(a, b):
-    pass
+    return a - b
 
 
 # 3. Multiplication basique
@@ -15,7 +15,7 @@ def multiplication(a, b):
 
 # 4. Division basique
 def division(a, b):
-    pass
+    return a / b
 
 
 # 5. Quotient de la division euclidienne (ou division entière)
@@ -68,4 +68,7 @@ def tri(l):
 
 # 14. Retourne la factorielle de la valeur
 def factoriel(a):
-    pass
+    if a == 0:
+            return 1
+        else:
+            return a * factorial(a - 1)
