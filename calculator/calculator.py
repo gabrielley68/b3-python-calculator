@@ -31,8 +31,8 @@ def reste(a, b):
 # 7. Retourne le nombre sans tenir compte de son signe
 def valeur_absolue(a):
     nombre_absolu = abs(a)
+    print("Votre nombre est: ", nombre_absolu)
     return nombre_absolu
-    pass
 
 
 # 8. Retourne la valeur au carré
