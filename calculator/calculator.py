@@ -49,7 +49,7 @@ def somme_liste(l):
     somme_all_list=0
     for element in list_add:
         somme_all_list += element
-    print("La somme des éléments de la liste est :", somme_all_list)
+    return somme_all_list
 
 
 # 11. Retourne a puissance b
