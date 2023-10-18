@@ -29,7 +29,10 @@ def quotient(a, b):
 
 # 6. Reste de la division euclidienne
 def reste(a, b):
-    pass
+    if b == 0:
+        return "Division par zéro impossible"
+    else:
+        return a % b
 
 
 # 7. Retourne le nombre sans tenir compte de son signe
