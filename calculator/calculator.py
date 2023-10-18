@@ -65,4 +65,7 @@ def tri(l):
 
 # 14. Retourne la factorielle de la valeur
 def factoriel(a):
-    pass
+    if a == 0:
+            return 1
+        else:
+            return a * factorial(a - 1)
