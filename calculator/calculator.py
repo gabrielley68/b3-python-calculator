@@ -21,7 +21,8 @@ def division(a, b):
 
 # 5. Quotient de la division euclidienne (ou division entière)
 def quotient(a, b):
-    pass
+    return a // b
+
 
 
 # 6. Reste de la division euclidienne
